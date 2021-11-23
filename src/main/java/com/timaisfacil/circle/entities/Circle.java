@@ -4,31 +4,31 @@ import java.io.Serializable;
 
 public class Circle implements Serializable {
 
-    private Integer x;
-    private Integer y;
-    private Integer radius;
+    private Double x;
+    private Double y;
+    private Double radius;
 
-    public Integer getX() {
+    public Double getX() {
         return x;
     }
 
-    public void setX(Integer x) {
+    public void setX(Double x) {
         this.x = x;
     }
 
-    public Integer getY() {
+    public Double getY() {
         return y;
     }
 
-    public void setY(Integer y) {
+    public void setY(Double y) {
         this.y = y;
     }
 
-    public Integer getRadius() {
+    public Double getRadius() {
         return radius;
     }
 
-    public void setRadius(Integer radius) {
+    public void setRadius(Double radius) {
         this.radius = radius;
     }
 

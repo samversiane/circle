@@ -15,9 +15,9 @@ public class CircleApplication {
         SpringApplication.run(CircleApplication.class, args);
 
         Circle circle = new Circle();
-        circle.setX(2);
-        circle.setY(3);
-        circle.setRadius(2);
+        circle.setX(0D);
+        circle.setY(0D);
+        circle.setRadius(2D);
 
         CircleService service = new CircleService();
         service.calcCircle(circle).forEach((s, p) -> {
